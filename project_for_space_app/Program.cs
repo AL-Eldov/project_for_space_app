@@ -13,6 +13,6 @@ AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var app = builder.Build();
 
-app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=ShowPurchases}/{id?}");
+app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=ShowUsers}/{id?}");
 
 app.Run();

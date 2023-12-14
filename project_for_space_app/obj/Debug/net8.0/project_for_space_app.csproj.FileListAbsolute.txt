@@ -32,3 +32,4 @@ D:\LearningPath\Programming\C#\project_for_space_app\project_for_space_app\bin\D
 D:\LearningPath\Programming\C#\project_for_space_app\project_for_space_app\bin\Debug\net8.0\Npgsql.dll
 D:\LearningPath\Programming\C#\project_for_space_app\project_for_space_app\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\LearningPath\Programming\C#\project_for_space_app\project_for_space_app\obj\Debug\net8.0\project_for_space_app.csproj.CopyComplete
+D:\LearningPath\Programming\C#\project_for_space_app\project_for_space_app\obj\Debug\net8.0\project_for_space_app.sourcelink.json
