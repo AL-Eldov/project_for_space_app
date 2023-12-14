@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\project_for_space_app.props" />
+</Project>

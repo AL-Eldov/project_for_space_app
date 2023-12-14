@@ -1,0 +1,25 @@
+﻿@model project_for_space_app.Models.Purchase
+
+<h2>Добавление пользователя</h2>
+<form asp-action="CreatePurchase" asp-controller="home">
+    <p>
+		<label asp-for="userId">Пользователь</label><br />
+        <select asp-for="userId">
+            @foreach (var item in ViewBag.userIds)
+            {
+                <option value=@item>@item</option>
+            }
+        </select>
+    </p>
+    <p>
+        <label asp-for="price">Цена</label><br />
+        <input type="number" step="any" asp-for="price" />
+    </p>
+    <p>
+        <label asp-for="date">Дата</label><br />
+        <input type="date" asp-for="date" />
+    </p>
+    <p>
+        <input type="submit" value="Добавить" />
+    </p>
+</form>

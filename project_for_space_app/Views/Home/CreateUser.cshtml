@@ -1,0 +1,16 @@
+﻿@model project_for_space_app.Models.User
+
+<h2>Добавление пользователя</h2>
+<form asp-action="CreateUser" asp-controller="home">
+    <p>
+        <label asp-for="FullName">Имя</label><br />
+        <input type="text" asp-for="FullName" />
+    </p>
+    <p>
+        <label asp-for="BornDate">Дата рождения</label><br />
+        <input type="date" asp-for="BornDate" /> 
+    </p>
+    <p>
+        <input type="submit" value="Добавить" />
+    </p>
+</form>
